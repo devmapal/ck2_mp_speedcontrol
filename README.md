@@ -1,5 +1,6 @@
 # ck2_mp_speedcontrol
-Allows all players in a Crusader Kings II multiplayer session to control the speed of the game
+Allows all players in a Crusader Kings II multiplayer session to control the
+speed of the game
 
 # Usage
 
@@ -10,3 +11,7 @@ Allows all players in a Crusader Kings II multiplayer session to control the spe
 ## All other players
 
     ./ck2_mps.py <Server IP>
+
+# Warning
+Exposes port 8080 on the server and allows everyone to instruct the server to
+execute '+' and '-' keypresses.
